@@ -19,3 +19,12 @@ justify-content: space-around;    align-items: flex-start;
     background-color: black;
     color: white;
 }
+
+.container-imagem {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    /* adicionando imagem de fundo */
+    background: url('index_files/back_ar.jpg');
+    background-size: cover;
+}
