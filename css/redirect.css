@@ -13,6 +13,7 @@ body{
 }
 
 .msg{
+    padding: 25px;
     text-align: center;
     display: flex;
     flex-direction: column;
