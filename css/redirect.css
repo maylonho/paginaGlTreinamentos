@@ -13,7 +13,7 @@ body{
 }
 
 .msg{
-    padding: 25px;
+    padding: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -21,3 +21,5 @@ body{
     justify-content: center;
     height: 100vh;
 }
+
+
