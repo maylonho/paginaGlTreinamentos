@@ -8,13 +8,42 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="shortcut icon" href="index_files/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/redirect.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+
+
     <title>GL TREINAMENTOS</title>
   </head>
   <body>
-    <div class="fundo">
-        <img src="" alt="">
-    </div>
 
+
+    <script>
+        //LINK PARA DEFINIR O ENDERECO DO WHATSAPP
+        var link_zap = 'https://chat.whatsapp.com/COhLs73xvfeLO7e1poqLMx';
+
+        
+        //LINK PARA DEFINIR O ENDERECO DA PAGINA DE CHECKOUT
+        var link_pagina_checkout = 'https://go.hotmart.com/V50684748M?ap=0e92';
+
+        function linkzap(){
+        return link_zap;
+        }
+        function linkpagina(){
+        return link_pagina_checkout;
+        }
+    </script>
+    <div class="s">
+        <div class="fundo">
+            <img src="./imgs/back.jpg" alt="">
+        </div>
+    </div>
+    <div class="msg">
+        <h2>CLIQUE NO BOTÃO ABAIXO PARA ENTRAR NO GRUPO <span style="color: orange;"><i class="fa fa-angellist"></i></i></span> VIP <span style="color: orange;"><i class="fa fa-angellist"></i></i></span></h2>
+        <p>Ao clicar no botão você será redirecionado para nosso grupo no WHATSAPP</p>
+        <div style="display: flex; justify-content: center;">
+            <button onclick="location.href=linkzap();" type="button" class="btn btn-danger btn-lg" style="border-radius: 10px; font-size: 15pt;">ENTRAR NO GRUPO VIP</button>
+        </div>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
