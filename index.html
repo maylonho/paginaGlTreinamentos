@@ -40,8 +40,38 @@
 
 
     <script>
-        //LINK PARA DEFINIR O ENDERECO DO WHATSAPP
-        var link_zap = 'https://chat.whatsapp.com/COhLs73xvfeLO7e1poqLMx';
+
+
+        //LINK PARA DEFINIR O GRUPO DO WHATSAPP
+        var link_direct = 1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+        var link_zap = 0;
+        var link_grupo1 = 'https://chat.whatsapp.com/L4mb7sb9mYFHiWEldcIX7R';
+        var link_grupo2 = 'https://chat.whatsapp.com/GkO4DPpQkbN93bNRbHUW3A';
+        var link_grupo3 = 'https://chat.whatsapp.com/HlTnwgspyqz08DBHPy5iI1';
+        var link_grupo4 = 'https://chat.whatsapp.com/COhLs73xvfeLO7e1poqLMx';
+
+        if (link_direct==1) {
+          link_zap = link_grupo1;
+        } else if (link_direct==2){
+          link_zap = link_grupo2;
+        } else if (link_direct==3){
+          link_zap = link_grupo3;
+        } else{
+          link_zap = link_grupo4;
+        }
 
         
         //LINK PARA DEFINIR O ENDERECO DA PAGINA DE CHECKOUT
@@ -60,10 +90,16 @@
         </div>
     </div>
     <div class="msg">
+        <div class="img-zap">
+            <div class="img2">
+                <img src="./imgs/WhatsApp_VIP3.png" alt="">
+            </div>
+        </div>
         <h2>CLIQUE NO BOTÃO ABAIXO PARA ENTRAR NO GRUPO <nobr> <span style="color: orange;"><i class="fa fa-angellist"></i></i>*</span>VIP<span style="color: orange;">*<i class="fa fa-angellist"></i></i></span></nobr></h2>
         <p>Ao clicar no botão você será redirecionado para nosso grupo no WHATSAPP</p>
-        <div style="display: flex; justify-content: center;">
-            <button onclick="location.href=linkzap();" type="button" class="btn btn-danger btn-lg" style="border-radius: 10px; font-size: 15pt;">ENTRAR NO GRUPO VIP</button>
+        <div style="display: flex; justify-content: center; flex-direction: column;">
+            <button onclick="location.href=linkzap();" type="button" class="btn btn-primary btn-lg" style="border-radius: 10px; font-size: 15pt;"><img src="./imgs/Whatsapp.webp" alt=""> ENTRAR NO GRUPO VIP</button>
+            <p id="lock">Conexão segura <i class="fa fa-lock"></i></p>
         </div>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
