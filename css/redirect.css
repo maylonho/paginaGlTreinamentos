@@ -1,6 +1,4 @@
-body{
-    
-}
+
 .fundo{
     opacity: 0.2;
     z-index: -1000;
@@ -22,4 +20,14 @@ body{
     height: 100vh;
 }
 
+.img-zap{
+    display: flex;
+}
 
+.img-zap img{
+    width: 400px;
+}
+
+.msg button img{
+    width: 30px;
+}
