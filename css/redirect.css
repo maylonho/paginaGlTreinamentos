@@ -31,3 +31,7 @@
 .msg button img{
     width: 30px;
 }
+
+.msg p#lock{
+    font-size: 1.4em;
+}
